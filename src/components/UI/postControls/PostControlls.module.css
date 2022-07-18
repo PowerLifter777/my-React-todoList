@@ -1,0 +1,48 @@
+.postColor_input {
+
+  border: none;
+  box-sizing: border-box;
+  border-radius: 50%;
+  /* border-radius: 0px 5px 5px 5px; */
+  height: 20px;
+  width: 20px;
+  padding: 2px;
+  margin: 5px;
+  /* margin-left: 20px; */
+  box-shadow: 3px 3px 3px;
+  /* background-color: wheat; */
+  background-image: linear-gradient(60deg, #f5f981 50%, #99c3f6 70%);
+  cursor: pointer;
+}
+
+.postColor_button {
+  position: relative;
+  top: 1px;
+  border: none;
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  border-radius: 0px 5px 5px 5px;
+  box-shadow: 3px 3px 3px;
+  /* background-color: wheat; */
+  background-image: linear-gradient(60deg, #f5f981 50%, #99c3f6 70%);
+  font-weight: 700;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.postColor_input:hover,
+.postColor_button:hover {
+  border: 1px solid rgb(109, 111, 70);
+  transform: scale(1.2);
+}
+
+.postColor_button:active {
+  position: relative;
+  right: -2px;
+  top: 2px;
+  box-shadow: 3px 3px rgb(74, 73, 73);
+  /* transform: scale(1); */
+  border: 1px solid rgb(152, 134, 92);
+}
