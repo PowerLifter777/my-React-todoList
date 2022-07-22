@@ -1,0 +1,22 @@
+.myInput {
+    display: inline-block;
+	margin: 5px 10px 10px;
+	width: 294px;
+    height: 25px; 
+	box-shadow: 3px 3px 4px rgb(66, 64, 56);
+    /* border-style: hidden; */
+    border: 2px solid rgb(186, 180, 153);
+    border-radius: 10px;
+    outline : none;
+    box-sizing: border-box;
+}
+
+.myInput:hover{
+    /* position: relative; */
+    box-sizing: border-box;
+    outline : none;
+    transform: scale(1.05);
+    transition: .5s; 
+}
+
+
